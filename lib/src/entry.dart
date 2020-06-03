@@ -30,7 +30,7 @@ class CircularSegmentEntry {
   /// transitioning between data points.
   final String rankKey;
 
-  final double strokeWidth
+  final double strokeWidth;
 
   String toString() {
     return '$rankKey: $value $color $strokeWidth';
